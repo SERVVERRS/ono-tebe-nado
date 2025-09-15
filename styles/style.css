@@ -80,7 +80,7 @@ li:before {
    line-height: 130px;
 }
 .cover_h1_ono {
-    letter-spacing: 30px; 
+    letter-spacing: 30px;
     width: 286px;
     height: 115px;
     padding-top: 165px;
@@ -88,14 +88,14 @@ li:before {
 }
 .cover_h1_tebe {
     padding-top: 20px;
-    letter-spacing: 30px; 
+    letter-spacing: 30px;
     width: 339px;
     height: 115px;
     padding-left: 380.5px;
 }
 .cover_h1_nado {
     padding-top: 20px;
-    letter-spacing: 30px; 
+    letter-spacing: 30px;
     width: 387px;
     height: 115px;
     padding-left: 663px;
@@ -232,7 +232,7 @@ article {
     padding-left: 25px;
     font-size: 20px;
     color: black;
-    width: 693px;  
+    width: 693px;
 }
 .title_text_about_botton {
     padding-top: 25px;
@@ -259,7 +259,7 @@ article {
     list-style: none;
     display: flex;
     width: 240px;
-    margin-left: 185px; 
+    margin-left: 185px;
 }
 .footer_yt {
     width: 48px;
