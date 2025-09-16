@@ -4,20 +4,21 @@ body {
 .cover {
     min-height: 757px;
     background-image: url(../images/cover.jpg);
-    background-size:100% 100%;
+    background-size: cover;
+    background-position: center;
 }
 .film {
-    background-image: url(/images/card-lot-02.jpg);
+    background-image: url(../images/card-lot-02.jpg);
 }
 .book {
-    background-image: url(/images/card-lot-01.jpg);
+    background-image: url(../images/card-lot-01.jpg);
 }
 .picture {
-    background-image: url(/images/card-lot-03.jpg);
+    background-image: url(../images/card-lot-03.jpg);
 }
 .header {
+    min-height: 293px;
     width: 1100px;
-    height: 293px;
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
@@ -28,7 +29,7 @@ body {
     gap: 8px;
     margin: auto;
     display: flex;
-    padding-left: 7px;
+    padding-left: 50px;
     padding-bottom: 6px;
 }
 li:before {
@@ -72,42 +73,39 @@ li:before {
     min-height: 757px;
     background-color: rgba(0, 0, 0, 0.6);
 }
-.cover_h1 {
+.cover_title {
     margin: 0;
     font-size: 100px;
     color: white;
-   padding-top: 165px;
-   line-height: 130px;
+    line-height: 120px;
 }
-.cover_h1_ono {
+.cover_title1 {
     letter-spacing: 30px;
     width: 286px;
-    height: 115px;
     padding-top: 165px;
     padding-left: 50px;
 }
-.cover_h1_tebe {
-    padding-top: 20px;
+.cover_title2 {
+    padding-top: 13px;
     letter-spacing: 30px;
     width: 339px;
-    height: 115px;
-    padding-left: 380.5px;
+    padding-left: 380px;
 }
-.cover_h1_nado {
-    padding-top: 20px;
+.cover_title3 {
+    padding-top: 15px;
     letter-spacing: 30px;
     width: 387px;
-    height: 115px;
-    padding-left: 663px;
+    padding-left: 665px;
 }
 .description {
-    padding-left: 50px;
-    padding-top: 97px;
+    padding-left: 44px;
+    padding-top: 105px;
     display: flex;
 }
 .cover__description-text {
-    padding-top: 20px;
+    padding-top: 13px;
     word-spacing: 20px;
+    padding-left: 5px;
     color: white;
     font-size: 22px;
     text-transform: uppercase;
@@ -115,7 +113,7 @@ li:before {
 .bet-button {
     color: white;
     background: transparent;
-    border: 1px white solid;
+    border: 1px currentColor solid;
     width: 256px;
     height: 51px;
     font-size: 22px;
@@ -180,7 +178,7 @@ article {
 .lots_cart_url {
     text-decoration: none;
 }
-.lots_bolee {
+.lots_href {
     color: black;
     font-size: 20px;
     font-weight: 400;
@@ -212,24 +210,28 @@ article {
     justify-content: center;
 }
 .about__logo_svg {
-    
     width: 148px;
     height: 114px;
 }
+.text_about {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
 .title_about {
+    min-height: 240px;
     margin: 0;
     display: flex;
     align-items: center;
-    height: 240px;
     font-size: 40px;
-    padding-left: 25px;
+    padding-left: 26px;
     padding-top: 10px;
     color: black;
     text-transform: uppercase;
 }
 .title_text_about {
     padding-top: 10px;
-    padding-left: 25px;
+    padding-left: 26px;
     font-size: 20px;
     color: black;
     width: 693px;
@@ -261,15 +263,8 @@ article {
     width: 240px;
     margin-left: 185px;
 }
-.footer_yt {
+.footer_icon {
     width: 48px;
     height: 48px;
 }
-.footer_pinterest {
-    width: 48px;
-    height: 48px;
-}
-.footer_vk {
-    width: 48px;
-    height: 48px;
-}
+
