@@ -74,6 +74,7 @@ li:before {
     background-color: rgba(0, 0, 0, 0.6);
 }
 .cover_title {
+    font-weight: bold;
     margin: 0;
     font-size: 100px;
     color: white;
@@ -92,6 +93,7 @@ li:before {
     padding-left: 380px;
 }
 .cover_title3 {
+
     padding-top: 15px;
     letter-spacing: 30px;
     width: 387px;
