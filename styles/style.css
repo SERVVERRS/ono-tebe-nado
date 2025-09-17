@@ -228,7 +228,7 @@ article {
     color: black;
     text-transform: uppercase;
 }
-.title{
+.title {
     display: flex;
     min-height: 240px;
     justify-content: space-between;
